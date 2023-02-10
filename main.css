@@ -615,8 +615,9 @@
 
 .ads-in-bg{
     position: fixed;
-    left: calc(50% - 325px);
-    top: calc(50% - 185px);
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
     background-color: #fff;
 }
 
